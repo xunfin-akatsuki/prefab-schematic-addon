@@ -4,7 +4,7 @@
 [![Forge](https://img.shields.io/badge/Forge-47.4.20-orange)](https://files.minecraftforge.net/)
 [![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE.txt)
 
-**Prefab Schematic Addon** 是 [Prefab](https://www.curseforge.com/minecraft/mc-mods/prefab) 模组的附属模组，将 [WorldEdit](https://www.curseforge.com/minecraft/mc-mods/worldedit) 创世神模组的 `.schem` 原理图文件作为预制建筑使用。
+**Prefab Schematic Addon** 是 [Prefab](https://www.curseforge.com/minecraft/mc-mods/prefab) 模组的附属模组，将 [WorldEdit](https://www.curseforge.com/minecraft/mc-mods/worldedit) 创世神模组的 `.schem` 蓝图文件作为预制建筑使用。
 
 > **Prefab Schematic Addon** bridges WorldEdit `.schem` schematic files into the [Prefab](https://www.curseforge.com/minecraft/mc-mods/prefab) mod, allowing you to use your WorldEdit creations as prefabricated buildings.
 
@@ -12,10 +12,10 @@
 
 ## 🏗️ 功能介绍 / Features
 
-- **导入创世神原理图** — 将 `config/worldedit/schematics/` 中的 `.schem` 文件自动识别为预制建筑
+- **导入创世神蓝图** — 将 `config/worldedit/schematics/` 中的 `.schem` 文件自动识别为预制建筑
 - **Prefab 风格交互** — 右键方块顶部打开菜单，支持**预览**（半透明幽灵方块投影）和**建造**，与 Prefab 原版交互方式一致
 - **数据包支持** — 通过数据包 JSON 文件自定义建筑的显示名称、描述、类别、合成配方和建筑材料
-- **自动发现** — 无需 JSON 配置即可自动注册原理图文件
+- **自动发现** — 无需 JSON 配置即可自动注册蓝图文件
 - **旋转系统** — 在菜单中可旋转建筑朝向（北/南/东/西）
 - **创造模式物品栏** — 所有建筑自动出现在"创世神建筑"标签页中
 - **中文本地化** — 完整的简体中文翻译
@@ -85,7 +85,7 @@
 |--------|--------|------|
 | `enableSchematicBuildings` | `true` | 全局开关 |
 | `maxSchematicSize` | `50000` | 单个建筑最大方块数（0=无限制） |
-| `disabledSchematics` | `[]` | 禁用的原理图列表 |
+| `disabledSchematics` | `[]` | 禁用的蓝图列表 |
 | `dimensionBlacklist` | `[]` | 禁止建造的维度列表 |
 
 ## 🔧 开发 / Development
@@ -117,7 +117,7 @@ src/main/java/.../prefabschematic/
 ├── registry/
 │   ├── ModItems.java              # 物品注册
 │   ├── SchematicBlueprintItem.java # 蓝图物品
-│   └── SchematicRegistry.java     # 原理图注册与加载
+│   └── SchematicRegistry.java     # 蓝图注册与加载
 └── schematic/
     ├── SchematicParser.java       # .schem 文件解析
     └── SchematicToPrefabConverter.java # 转换为 Prefab Structure
