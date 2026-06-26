@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "prefabschem:item/schematic_blueprint"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "item.prefabschem.schematic_blueprint": "WorldEdit Structure",
+  "itemGroup.prefabschem": "WorldEdit Structures",
+
+  "screen.prefabschem.preview": "Preview",
+  "screen.prefabschem.build": "Build",
+  "screen.prefabschem.cancel": "Cancel",
+  "screen.prefabschem.rotate": "Rotate",
+  "screen.prefabschem.title": "Structure: %s",
+  "screen.prefabschem.blocks": "Blocks: %d",
+  "screen.prefabschem.category": "Category: %s",
+  "screen.prefabschem.preview_active": "§ePreview mode active. Right-click to build, shift+right-click to cancel.",
+
+  "config.prefabschem.enableSchematicBuildings": "Enable Schematic Buildings",
+  "config.prefabschem.allowCustomSchematics": "Allow Custom Schematics",
+  "config.prefabschem.maxSchematicSize": "Max Schematic Size",
+  "config.prefabschem.disabledSchematics": "Disabled Schematics",
+  "config.prefabschem.dimensionBlacklist": "Dimension Blacklist",
+  "config.prefabschem.playBuildingSound": "Play Building Sound",
+  "config.prefabschem.consumeItemOnBuild": "Consume Blueprint on Build",
+
+  "message.prefabschem.build_success": "Structure \"%s\" built successfully!",
+  "message.prefabschem.build_failed": "Cannot build here — the area may be obstructed.",
+  "message.prefabschem.disabled": "Schematic buildings are disabled in the config.",
+  "message.prefabschem.schematic_disabled": "This schematic building has been disabled.",
+  "message.prefabschem.dimension_disabled": "Schematic buildings are disabled in this dimension.",
+  "message.prefabschem.wrong_dimension": "This structure cannot be built in this dimension.",
+  "message.prefabschem.missing_materials": "Insufficient building materials! Check the item tooltip for requirements.",
+  "message.prefabschem.not_loaded": "Schematic definition not loaded. Try /reload.",
+  "message.prefabschem.too_large": "This structure is too large (%d blocks, max %d)."
+}

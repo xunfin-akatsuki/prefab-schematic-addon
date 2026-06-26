@@ -1,0 +1,33 @@
+{
+  "schematic_file": "test.schem",
+  "display_name": {
+    "text": "Example House",
+    "color": "gold"
+  },
+  "description": [
+    {"text": "A simple example house", "color": "gray"},
+    {"text": "Built from oak wood and cobblestone", "color": "dark_gray"}
+  ],
+  "category": "houses",
+  "recipe": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "CCC",
+      "WDW",
+      "CCC"
+    ],
+    "key": {
+      "C": {"item": "minecraft:cobblestone"},
+      "W": {"item": "minecraft:oak_log"},
+      "D": {"item": "minecraft:diamond"}
+    }
+  },
+  "building_cost": {
+    "prefab:item_bundle_of_timber": 2,
+    "prefab:item_pile_of_bricks": 3
+  },
+  "config": {
+    "allow_in_dimensions": ["minecraft:overworld"],
+    "can_rotate": true
+  }
+}

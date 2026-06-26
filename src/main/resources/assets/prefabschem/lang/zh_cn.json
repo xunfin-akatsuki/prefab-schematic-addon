@@ -1,0 +1,31 @@
+{
+  "item.prefabschem.schematic_blueprint": "创世神建筑",
+  "itemGroup.prefabschem": "创世神建筑",
+
+  "screen.prefabschem.preview": "预览",
+  "screen.prefabschem.build": "建造",
+  "screen.prefabschem.cancel": "取消",
+  "screen.prefabschem.rotate": "旋转",
+  "screen.prefabschem.title": "建筑: %s",
+  "screen.prefabschem.blocks": "方块数: %d",
+  "screen.prefabschem.category": "类别: %s",
+  "screen.prefabschem.preview_active": "§e预览模式已激活。右键点击建造，Shift+右键取消。",
+
+  "config.prefabschem.enableSchematicBuildings": "启用创世神建筑",
+  "config.prefabschem.allowCustomSchematics": "允许自定义原理图",
+  "config.prefabschem.maxSchematicSize": "最大原理图尺寸",
+  "config.prefabschem.disabledSchematics": "禁用的原理图",
+  "config.prefabschem.dimensionBlacklist": "维度黑名单",
+  "config.prefabschem.playBuildingSound": "播放建造音效",
+  "config.prefabschem.consumeItemOnBuild": "建造时消耗蓝图",
+
+  "message.prefabschem.build_success": "建筑 \"%s\" 建造成功！",
+  "message.prefabschem.build_failed": "无法在此处建造 — 区域可能有障碍物。",
+  "message.prefabschem.disabled": "创世神建筑已在配置中禁用。",
+  "message.prefabschem.schematic_disabled": "此创世神建筑已被禁用。",
+  "message.prefabschem.dimension_disabled": "创世神建筑在此维度中被禁用。",
+  "message.prefabschem.wrong_dimension": "此建筑不能在当前维度中建造。",
+  "message.prefabschem.missing_materials": "建筑材料不足！请查看物品提示以了解所需材料。",
+  "message.prefabschem.not_loaded": "原理图定义未加载。请尝试 /reload。",
+  "message.prefabschem.too_large": "此建筑过大（%d 个方块，最大 %d）。"
+}

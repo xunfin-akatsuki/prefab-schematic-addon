@@ -1,0 +1,36 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
+
+# Files from Forge MDK
+forge*changelog.txt
+
+# Library jars (too large for git)
+libs/*.jar
+
+# Root-level mod jars
+prefab-*.jar
+worldedit-*.jar
+
+# OS files
+.DS_Store
+Thumbs.db
